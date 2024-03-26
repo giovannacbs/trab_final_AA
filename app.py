@@ -6,6 +6,11 @@ app = Flask(__name__)
 def index():
     return """
     <html>
+
+@app.route("/curriculo")
+def index():
+    return """
+    <html>
       <title>Currículo</title>
       <div>   
         <style>
