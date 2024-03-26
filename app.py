@@ -66,7 +66,7 @@ def index():
             <button><a href="/">Voltar para página inicial</a></button>
 
    </body>
-</html>
+</html>"
 
 @app.route("/portfolio)
 def index():
@@ -181,5 +181,5 @@ def index():
             <button><a href="/">Voltar para página inicial</a></button>
 
    </body>
-   </html>
+   </html>"
 
