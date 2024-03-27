@@ -135,7 +135,7 @@ def portifolio ():
         </p>
         <br>
        </div>
-       <p><button><a href="/home">Voltar para a página inicial</a></button> <button><a href="/curriculo">Currículo</a></button> </p>
+       <p><button><a href="/">Voltar para a página inicial</a></button> <button><a href="/curriculo">Currículo</a></button> </p>
   </body>
 </html>
 """
