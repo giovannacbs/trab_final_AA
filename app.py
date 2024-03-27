@@ -47,7 +47,7 @@ def index():
 """
     
 @app.route("/portfolio")
-def index():
+def /portifolio ():
     return """
     <html>
     <html>
@@ -141,7 +141,7 @@ def index():
 """
 
 @app.route("/curriculo")
-def index():
+def /curriculo ():
     return """
     <html>
   <title>Currículo</title>
