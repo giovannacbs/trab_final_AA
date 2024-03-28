@@ -48,8 +48,6 @@ def index():
     
 @app.route("/portfolio")
 def portifolio ():
-    return """
-    <html>
     <html>
     <title> Portfólio</title>
           <div>        
