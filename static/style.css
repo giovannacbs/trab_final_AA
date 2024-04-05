@@ -14,17 +14,10 @@ p, text {
   margin-bottom: 10px; 
 }
 
-.imagens, .imagens2 {
-  position: absolute; 
-  right: 30px;
-}
-
 .imagens {
-  top: 40px;
-}
-
-.imagens2 {
-  top: 390px;
+  float: right;
+  margin-left: 20px; /* Adiciona espaço à esquerda da imagem */
+  margin-bottom: 10px; /* Adiciona espaço abaixo da imagem */
 }
 
 button, .button {
