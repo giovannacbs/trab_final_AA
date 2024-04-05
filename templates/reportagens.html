@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resultado</h1>
+    <h2>Últimas cinco notícias sobre esse assunto publicadas no site da BBC em Português:</h2>
+    <ul>
+        {% for titulo, href in materias %}
+        <li><a href="{{ href }}">{{ titulo }}</a></li>
+        {% endfor %}
+    </ul>
+    <p><button><a href="/">Voltar</a></button> </p>
+</body>
+</html>
