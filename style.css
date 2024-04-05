@@ -1,6 +1,5 @@
-
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px; 
   background-color: #f8f8f8; 
 }
@@ -9,13 +8,26 @@ h1, h2, h3 {
   color: #8B0000; 
   margin-bottom: 10px; 
 }
-  
-p {
+
+p, text {
   color: #232324; 
   margin-bottom: 10px; 
 }
 
-p {margin-bottom: 1px}.button-54 {
+.imagens, .imagens2 {
+  position: absolute; 
+  right: 30px;
+}
+
+.imagens {
+  top: 40px;
+}
+
+.imagens2 {
+  top: 390px;
+}
+
+button, .button {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
@@ -30,11 +42,16 @@ p {margin-bottom: 1px}.button-54 {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-}.button-54:active {
+}
+
+button:active, .button:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
   left: 5px;
-}@media (min-width: 768px) {
-  .button-54 {
-    padding: 0.25em 0.75em;}
+}
+
+@media (min-width: 768px) {
+  button, .button {
+    padding: 0.25em 0.75em;
   }
+}
