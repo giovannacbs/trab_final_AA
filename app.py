@@ -1,4 +1,8 @@
-from flask import Flask, render_template
+# -*- coding: utf-8 -*-
+
+from flask import Flask, request, render_template
+import requests
+from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 
