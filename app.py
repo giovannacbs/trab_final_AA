@@ -23,7 +23,7 @@ def curriculo ():
 ## Parte da página dinâmica com raspagem do BBC PT
 
 @app.route("/bbc")
-def curriculo ():
+def bbc ():
     return render_template("bbc.html")
 
 @app.route("/reportagens.html", methods=["GET"])
