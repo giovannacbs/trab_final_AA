@@ -9,5 +9,13 @@ As duas últimas são uma ferramenta que, a partir do tema selecionado na págin
 
 Além disso, um bot do Telegram ([bot_mjd_24](https://t.me/bbc_mjd_24_bot)) está com webhook nesse site (/mensagem) para o funcionamento a todo tempo do bot. 
 
+# Final Project
+# Insper - 1Q/24
+Project for the Automation Algorithms course, taught by Professor Álvaro Justen in the Master of Data Journalism, Automation, and Data Storytelling at Insper.
 
+The website is live on the Render platform. The site contains 5 visible pages: [home](https://trab-final-aa.onrender.com/), [portfolio](https://trab-final-aa.onrender.com/portfolio), [curriculum](https://trab-final-aa.onrender.com/curriculo), [bbc](https://trab-final-aa.onrender.com/bbc) and "reports", with the first three serving as a sort of portfolio for journalist Ana Carolina Andrade.
+
+The last two pages are a tool that, based on the selected theme on the "bbc" page, the "reports" page returns the last five articles published by the Portuguese site of [BBC News](https://www.bbc.com/portuguese).
+
+Additionally, a Telegram bot ([bot_mjd_24](https://t.me/bbc_mjd_24_bot)) is linked via a webhook on this site (/message) to ensure the bot's operation at all times.
 
